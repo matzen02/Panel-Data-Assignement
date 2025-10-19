@@ -1,0 +1,22 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{4}{c}}
+\hline\hline
+            &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}\\
+            &\multicolumn{1}{c}{y\_it}&\multicolumn{1}{c}{y\_it}&\multicolumn{1}{c}{y\_it}&\multicolumn{1}{c}{y\_it}\\
+\hline
+L.y\_it      &       0.452\sym{***}&       0.466\sym{***}&       0.485\sym{***}&       0.492\sym{***}\\
+            &     (26.65)         &     (50.38)         &     (77.19)         &    (124.90)         \\
+[1em]
+x\_it        &       1.969\sym{***}&       1.961\sym{***}&       1.977\sym{***}&       2.008\sym{***}\\
+            &     (46.28)         &     (79.63)         &    (117.59)         &    (192.55)         \\
+[1em]
+\_cons      &       3.124\sym{***}&       3.148\sym{***}&       3.144\sym{***}&       3.076\sym{***}\\
+            &     (38.85)         &     (59.50)         &     (77.54)         &    (118.45)         \\
+\hline
+\(N\)       &         800         &        1800         &        3800         &        9800         \\
+\hline\hline
+\multicolumn{5}{l}{\footnotesize \textit{t} statistics in parentheses}\\
+\multicolumn{5}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
